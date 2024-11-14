@@ -1,5 +1,5 @@
 # SOEN 363 - Database Systems for Software Engineers
 ### Assignment 2 - Fall 2024
-#### By Sisahga Phimmasone
+#### Author: Sisahga Phimmasone (40210015)
 
 
