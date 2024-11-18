@@ -19,9 +19,9 @@ db_params = {
     'port': '5432'
 }
 
-# connect_and_initialize(db_params)
-# init_genres()
-# init_certificates()
+# connect_and_initialize(db_params) # PART 3 - Connects to DB, Creates Tables.
+# init_genres() # Inserts genres into genre table from TMDB
+# init_certificates() # Inserts certifications into certificate table from TMDB
 
-movies = get_movies(tmdb_urls, tmdb_headers)
-insert_movies_tmdb(movies)
+# movies = get_movies(tmdb_urls, tmdb_headers) # PART 2 - Gets list of movies from TMDB (Popular)
+# insert_movies_tmdb(movies) # Inserts movies into movie table (watchmode, tmdb)
