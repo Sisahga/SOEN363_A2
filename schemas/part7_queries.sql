@@ -53,3 +53,5 @@ LIMIT 2;
 -- Write a batch-update query that rounds up all the ratings.
 UPDATE movie
 SET rating = CEIL(rating);
+
+
